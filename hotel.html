@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Booking Form</title>
+</head>
+<body>
+    <label for="name"> Name:</label><br>
+    <input type="text" placeholder="Enter Your Full Name" id="name"/>
+    <br><br>
+
+    <label for="email"> Enter Your E-Mail:</label><br>
+    <input type="email" placeholder="ex:myname@example.com" id="email"/>
+    <br><br>
+
+    <label>Room Type:</label><br>
+    <input list="roomtype" placeholder="Please Select"/>
+    <datalist id="roomtype">
+        <option>Choose Room Type</option>
+        <option>Standard Room(1 to 2 People)</option>
+        <option>Family Room(1 to 4 People)</option>
+        <option>Mix Dorm Room(6 People)</option>
+        <option>Girls Dorm Room(6 People)</option>
+        <option>Boys Dorm Room(6 People)</option>
+    </datalist>
+    <br><br>
+
+    <label for="birthdate">BirthDate:</label>
+    <input type="date" id="birthdate"/>
+    <br><br>
+
+    <label for="time">Time:</label>
+    <input type="time" id="time"/>
+    <br><br>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date"/>
+    <br><br>
+
+    <form>
+        <label> AC Room:</label><br>
+        <input type="checkbox" id="1"/>
+        <label for="1">YES</label><br>
+
+        <input type="checkbox" id="2"/>
+        <label for="2">NO</label><br>
+    </form>  <br>
+
+    <label for="number">Number Of Guests:</label><br>
+    <input type="number" id="number" placeholder="e.g.,23"/>
+    <br><br>
+      
+    <from>
+        <label >Select Price:</label><br>
+        <input type="radio" name="price" id="low"/>
+        <label for="low">2000/- to 4000/-</label>
+        <br>
+
+        <input type="radio" name="price" id="high"/>
+        <label for="high">5000/- to 15000/-</label><br>
+
+        <input type="radio" name="price" id="medium"/>
+        <label for="medium">4000/- to 8000/-</label><br>
+        <br>
+
+        <label>Add Your AdharCard Image For Verification:</label><br>
+        <input type="file" accept="image/png"/>
+        <br><br>
+
+        <input type="submit" value="Submit"/>
+    </from>
+
+</body>
+</html>
